@@ -6,16 +6,11 @@ def clean_screen():
     os.system("cls" if platform == "nt" else "clear")
 
 def header_tools():
-    print(f"""{r}
-________                       __      __ .__   _____ .__  
-\______ \    ____   ______    /  \    /  \|__|_/ ____\|__| 
- |    |  \  /  _ \ /  ___/    \   \/\/   /|  |\   __\ |  | 
- |    `   \(  <_> )\___ \      \        / |  | |  |   |  | 
-/_______  / \____//____  >      \__/\  /  |__| |__|   |__|
-        \/             \/            \/                    
-{rs}{y}#{rs}++++++++++++++++++++++++++++++++++++++++++++++++++++++++{y}#{rs}
-< {r}[{rs}+{r}]{rs} Author    : Bang yog                               >
-< {r}[{rs}+{r}]{rs} Tools     : Dos WiFi v1                            >
-< {r}[{rs}+{r}]{rs} Github    : https://github.com/YogaRmdn            >
-{y}#{rs}++++++++++++++++++++++++++++++++++++++++++++++++++++++++{y}#{rs}
-""")
+    print(f"""{r}*****************************************************************{rs}
+{r}*{rs}                                                               {r}*{rs}
+{r}*{rs}                           {c}DOS WIFI{rs}                            {r}*{rs}
+{r}*{rs}                  {b}https://github.com/YogaRmdn{rs}                  {r}*{rs}
+{r}*{rs}            {y}Tools that perform DOS on Wifi networks{rs}            {r}*{rs}
+{r}*{rs}                      {g}Develop by Bang yog{rs}                      {r}*{rs}
+{r}*{rs}                                                               {r}*{rs}
+{r}*****************************************************************{rs}""")
